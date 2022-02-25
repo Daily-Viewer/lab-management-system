@@ -1,0 +1,508 @@
+<div class="grid dashboard">
+    <div class="col-12 lg:col-6 xl:col-3">
+        <div class="overview-box overview-box-1">
+            <div class="overview-box-icon">
+                <i class="pi pi-inbox" ></i>
+            </div>
+            <div class="overview-box-content">
+                <div class="overview-box-title">Unread Messages</div>
+                <div class="overview-box-stats">150</div>
+                <div class="overview-box-details">+%50 more than yesterday</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 lg:col-6 xl:col-3">
+        <div class="overview-box overview-box-2">
+            <div class="overview-box-icon">
+                <i class="pi pi-map-marker"></i>
+            </div>
+            <div class="overview-box-content">
+                <div class="overview-box-title">Check-Ins</div>
+                <div class="overview-box-stats">532</div>
+                <div class="overview-box-details">+%75 more than yesterday</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 lg:col-6 xl:col-3">
+        <div class="overview-box overview-box-3">
+            <div class="overview-box-icon">
+                <i class="pi pi-folder"></i>
+            </div>
+            <div class="overview-box-content">
+                <div class="overview-box-title">Files Synced</div>
+                <div class="overview-box-stats">25</div>
+                <div class="overview-box-details">+%15 more than yesterday</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 lg:col-6 xl:col-3">
+        <div class="overview-box overview-box-4">
+            <div class="overview-box-icon">
+                <i class="pi pi-user"></i>
+            </div>
+            <div class="overview-box-content">
+                <div class="overview-box-title">Users Online</div>
+                <div class="overview-box-stats">156</div>
+                <div class="overview-box-details">-%20 less than last week</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 lg:col-6 global-sales">
+        <p-panel header="Global Sales by Region">
+            <table>
+                <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>Total Sales</th>
+                    <th>Change</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><img src="assets/layout/images/dashboard/flag-brazil.png" width="45"></td>
+                    <td>BRAZIL</td>
+                    <td>4234</td>
+                    <td>35%</td>
+                    <td><i class="pi pi-arrow-up"></i></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="assets/layout/images/dashboard/flag-china.png" width="45"></td>
+                    <td>CHINA</td>
+                    <td>3214</td>
+                    <td>25%</td>
+                    <td><i class="pi pi-arrow-up"></i></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img src="assets/layout/images/dashboard/flag-belgium.png" width="45"></td>
+                    <td>BELGIUM</td>
+                    <td>2842</td>
+                    <td>28%</td>
+                    <td><i class="pi pi-arrow-down"></i></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><img src="assets/layout/images/dashboard/flag-france.png" width="45"></td>
+                    <td>FRANCE</td>
+                    <td>1942</td>
+                    <td>15%</td>
+                    <td><i class="pi pi-arrow-up"></i></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><img src="assets/layout/images/dashboard/flag-uk.png" width="45"/></td>
+                    <td>UK</td>
+                    <td>1956</td>
+                    <td>25%</td>
+                    <td><i class="pi pi-arrow-up"></i></td>
+                </tr>
+                </tbody>
+            </table>
+        </p-panel>
+    </div>
+    <div class="col-12 lg:col-6 stats">
+        <p-panel header="Statistics">
+            <div class="knob-1 knob">
+                <div class="knob-2 knob">
+                    <div class="knob-3 knob"></div>
+                </div>
+            </div>
+
+            <div class="grid legend">
+                <div class="col-12 md:col-4 idle">
+                    <div class="legend-color"></div>
+                    <div class="legend-name">Idle</div>
+                    <div class="legend-number">43242</div>
+                </div>
+                <div class="col-12 md:col-4 pending">
+                    <div class="legend-color"></div>
+                    <div class="legend-name">Pending</div>
+                    <div class="legend-number">6345</div>
+                </div>
+                <div class="col-12 md:col-4 completed">
+                    <div class="legend-color"></div>
+                    <div class="legend-name">Completed</div>
+                    <div class="legend-number">4626</div>
+                </div>
+            </div>
+        </p-panel>
+    </div>
+
+    <div class="col-12 md:col-6 lg:col-4 task-list">
+        <p-panel header="Tasks" [style]="{'min-height':'360px'}">
+            <ul>
+                <li>
+                    <p-checkbox binary="true"></p-checkbox>
+                    <span class="task-name">Sales Reports</span>
+                    <i class="pi pi-briefcase"></i>
+                </li>
+                <li>
+                    <p-checkbox binary="true"></p-checkbox>
+                    <span class="task-name">Pay Invoices</span>
+                    <i class="pi pi-money-bill"></i>
+                </li>
+                <li>
+                    <p-checkbox binary="true"></p-checkbox>
+                    <span class="task-name">Dinner with Tony</span>
+                    <i class="pi pi-calendar"></i>
+                </li>
+                <li>
+                    <p-checkbox binary="true"></p-checkbox>
+                    <span class="task-name">Client Meeting</span>
+                    <i class="pi pi-user"></i>
+                </li>
+                <li>
+                    <p-checkbox binary="true"></p-checkbox>
+                    <span class="task-name">New Theme</span>
+                    <i class="pi pi-palette"></i>
+                </li>
+                <li>
+                    <p-checkbox binary="true"></p-checkbox>
+                    <span class="task-name">Flight Ticket</span>
+                    <i class="pi pi-ticket"></i>
+                </li>
+                <li>
+                    <p-checkbox binary="true"></p-checkbox>
+                    <span class="task-name">Generate Charts</span>
+                    <i class="pi pi-chart-bar"></i>
+                </li>
+                <li>
+                    <p-checkbox binary="true"></p-checkbox>
+                    <span class="task-name">Call Client</span>
+                    <i class="pi pi-mobile"></i>
+                </li>
+                <li>
+                    <p-checkbox binary="true"></p-checkbox>
+                    <span class="task-name">Share location</span>
+                    <i class="pi pi-map-marker"></i>
+                </li>
+                <li>
+                    <p-checkbox binary="true"></p-checkbox>
+                    <span class="task-name">Create Feed</span>
+                    <i class="pi pi-wifi"></i>
+                </li>
+            </ul>
+        </p-panel>
+    </div>
+
+    <div class="col-12 md:col-6 lg:col-4 p-fluid contact-form">
+        <p-panel header="Message" [style]="{'min-height':'360px'}">
+            <div class="grid">
+                <div class="col-12">
+                    <p-dropdown [options]="cities" [(ngModel)]="selectedCity"></p-dropdown>
+                </div>
+                <div class="col-12">
+                    <input type="text" pInputText placeholder="Firstname" >
+                </div>
+                <div class="col-12">
+                    <input type="text" pInputText placeholder="Lastname">
+                </div>
+                <div class="col-12">
+                    <input type="text" pInputText placeholder="Email">
+                </div>
+                <div class="col-12">
+                    <input type="text" pInputText placeholder="Location">
+                </div>
+                <div class="col-12">
+                    <textarea type="text" pInputTextarea placeholder="Message"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="button" label="Send" icon="pi pi-check" pButton></button>
+                </div>
+            </div>
+        </p-panel>
+    </div>
+
+    <div class="col-12 lg:col-4 contacts">
+        <p-panel header="Contacts" [style]="{'min-height':'360px'}">
+            <ul>
+                <li class="clearfix">
+                    <img src="assets/layout/images/avatar.png" width="45">
+                    <div class="contact-info">
+                        <span class="name">Madison Hughes (me)</span>
+                        <span class="location">jane@pn-manhattan.com</span>
+                    </div>
+                    <div class="contact-actions">
+                        <span class="connection-status online">online</span>
+                        <i class="pi pi-comment"></i>
+                        <i class="pi pi-reply"></i>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <img src="assets/layout/images/avatar1.png" width="45">
+                    <div class="contact-info">
+                        <span class="name">Joshua Williams</span>
+                        <span class="location">joshua@pn-manhattan.com</span>
+                    </div>
+                    <div class="contact-actions">
+                        <span class="connection-status online">online</span>
+                        <i class="pi pi-comment"></i>
+                        <i class="pi pi-reply"></i>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <img src="assets/layout/images/avatar2.png" width="45">
+                    <div class="contact-info">
+                        <span class="name">Emily Clark</span>
+                        <span class="location">emily@pn-manhattan.com</span>
+                    </div>
+                    <div class="contact-actions">
+                        <span class="connection-status offline">offline</span>
+                        <i class="pi pi-comment"></i>
+                        <i class="pi pi-reply"></i>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <img src="assets/layout/images/avatar3.png" width="45">
+                    <div class="contact-info">
+                        <span class="name">Tim Johnson</span>
+                        <span class="location">tim@pn-manhattan.com</span>
+                    </div>
+                    <div class="contact-actions">
+                        <span class="connection-status online">online</span>
+                        <i class="pi pi-comment"></i>
+                        <i class="pi pi-reply"></i>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <img src="assets/layout/images/avatar4.png" width="45">
+                    <div class="contact-info">
+                        <span class="name">David Stark</span>
+                        <span class="location">kelly@pn-manhattan.com</span>
+                    </div>
+                    <div class="contact-actions">
+                        <span class="connection-status offline">offline</span>
+                        <i class="pi pi-comment"></i>
+                        <i class="pi pi-reply"></i>
+                    </div>
+                </li>
+            </ul>
+        </p-panel>
+    </div>
+
+    <div class="col-12 lg:col-8 chat">
+        <p-panel header="Chat">
+            <ul>
+                <li class="clearfix message-from">
+                    <img src="assets/layout/images/avatar2.png">
+                    <span>Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore.</span>
+                </li>
+                <li class="clearfix message-own">
+                    <img src="assets/layout/images/avatar.png">
+                    <span>Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage.</span>
+                </li>
+                <li class="clearfix message-from">
+                    <img src="assets/layout/images/avatar2.png">
+                    <span>Chillwave craft beer tote bag stumptown quinoa hashtag.</span>
+                </li>
+                <li class="clearfix message-own">
+                    <img src="assets/layout/images/avatar.png">
+                    <span>Dreamcatcher locavore iPhone chillwave, occupy trust fund slow-carb distillery art party narwhal.</span>
+                </li>
+                <li class="clearfix message-own">
+                    <span>Sed ut perspiciatis unde omnis iste natus.</span>
+                </li>
+                <li class="clearfix message-from">
+                    <img src="assets/layout/images/avatar2.png">
+                    <span>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse.</span>
+                </li>
+                <li class="clearfix message-own">
+                    <img src="assets/layout/images/avatar.png">
+                    <span>At vero eos et accusamus.</span>
+                </li>
+            </ul>
+            <div class="new-message">
+                <div class="message-attachment">
+                    <i class="pi pi-paperclip"></i>
+                </div>
+                <div class="message-input">
+                    <input type="text" placeholder="Write a message" class="p-inputtext" />
+                </div>
+            </div>
+        </p-panel>
+    </div>
+    <div class="col-12 lg:col-4">
+        <div class="user-card">
+            <div class="user-card-header">
+                <img src="assets/layout/images/dashboard/usercard.png">
+            </div>
+            <div class="user-card-content">
+                <img src="assets/layout/images/avatar.png">
+                <button pButton type="button" icon="pi pi-plus" class="secondary" (click)="menu.toggle($event)"></button>
+                <p-menu #menu popup="popup" [model]="items"></p-menu>
+
+                <div class="user-card-name">
+                    <span>Madison Hughes</span>
+                </div>
+
+                <div class="user-detail">
+                    <ul>
+                        <li class="clearfix">
+                            <i class="pi pi-fw pi-sliders-h"></i>
+                            <span class="project-title">Tasks</span>
+                            <span class="project-detail">3 open</span>
+                            <div class="project-progressbar">
+                                <div class="project-progressbar-value" style="width: 50%"></div>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <i class="pi pi-fw pi-dollar"></i>
+                            <span class="project-title">Revenue</span>
+                            <span class="project-detail">+20%</span>
+                            <div class="project-progressbar">
+                                <div class="project-progressbar-value" style="width: 20%"></div>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <i class="pi pi-fw pi-money-bill"></i>
+                            <span class="project-title">Payments</span>
+                            <span class="project-detail">24 new</span>
+                            <div class="project-progressbar">
+                                <div class="project-progressbar-value" style="width: 65%"></div>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <i class="pi pi-fw pi-users"></i>
+                            <span class="project-title">Clients</span>
+                            <span class="project-detail">+80%</span>
+                            <div class="project-progressbar">
+                                <div class="project-progressbar-value" style="width: 80%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 lg:col-8">
+        <div class="card">
+            <p-table [value]="products" [paginator]="true" [rows]="5" styleClass="p-datatable-customers">
+                <ng-template pTemplate="header">
+                    <tr>
+                        <th pSortableColumn="id">ID
+                            <p-sortIcon field="id"></p-sortIcon>
+                        </th>
+                        <th pSortableColumn="category">Category
+                            <p-sortIcon field="category"></p-sortIcon>
+                        </th>
+                        <th pSortableColumn="price">Price
+                            <p-sortIcon field="price"></p-sortIcon>
+                        </th>
+                        <th pSortableColumn="inventoryStatus">Status
+                            <p-sortIcon field="inventoryStatus"></p-sortIcon>
+                        </th>
+                        <th></th>
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="body" let-product>
+                    <tr>
+                        <td style="width:70px;">
+                            <span class="p-column-title">Id</span>
+                            {{product.id}}</td>
+                        <td style="width:200px;">
+                            <span class="p-column-title">Category</span>
+                            {{product.category}}</td>
+                        <td style="width:200px;">
+                            <span class="p-column-title">Price</span>
+                            {{product.price | currency:'USD'}}</td>
+                        <td style="width:150px;">
+                            <span class="p-column-title">Status</span>
+                            <span [class]="'product-badge status-' + product.inventoryStatus.toLowerCase()">{{product.inventoryStatus}}</span>
+                        </td>
+                        <td style="width:100px;" class="text-center">
+                            <button pButton type="button" icon="pi pi-search"></button>
+                        </td>
+                    </tr>
+                </ng-template>
+            </p-table>
+
+            <p-panel header="Sales Graph">
+                <div style="overflow:auto">
+                    <p-chart type="line" [data]="chartData" responsive="true"></p-chart>
+                </div>
+            </p-panel>
+        </div>
+    </div>
+
+    <div class="col-12 lg:col-4">
+        <div class="card timeline p-fluid">
+            <div class="grid">
+                <div class="col-3">
+                    <span class="event-time">just now</span>
+                    <i class="pi pi-map-marker" style="color:#3984b8"></i>
+                </div>
+                <div class="col-9">
+                    <span class="event-owner" style="color:#3984b8">Katherine May</span>
+                    <span class="event-text">Lorem ipsun dolor amet</span>
+                    <div class="event-content">
+                        <img src="assets/layout/images/dashboard/bridge.png" width="100"/>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <span class="event-time">12h ago</span>
+                    <i class="pi pi-star" style="color:#f6ac2b"></i>
+                </div>
+                <div class="col-9">
+                    <span class="event-owner" style="color:#f6ac2b">Brandon Santos</span>
+                    <span class="event-text">Ab nobis, magnam sunt eum. Laudantium, repudiandae, similique!.</span>
+                </div>
+
+                <div class="col-3">
+                    <span class="event-time">15h ago</span>
+                    <i class="pi pi-comment" style="color:#7e8dcd"></i>
+                </div>
+                <div class="col-9">
+                    <span class="event-owner" style="color:#7e8dcd">Stephan Ward</span>
+                    <span class="event-text">Omnis veniam quibusdam ratione est repellat qui nam quisquam ab mollitia dolores ullam voluptates, similique, dignissimos.</span>
+                </div>
+
+                <div class="col-3">
+                    <span class="event-time">2d ago</span>
+                    <i class="pi pi-globe" style="color:#e175a0"></i>
+                </div>
+                <div class="col-9">
+                    <span class="event-owner" style="color:#e175a0">Jason Smith</span>
+                    <span class="event-text">Laudantium, repudiandae, similique!</span>
+                    <div class="event-content">
+                        <img src="assets/layout/images/dashboard/map.png" />
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <span class="event-time">1w ago</span>
+                    <i class="pi pi-heart" style="color:#39b8b6"></i>
+                </div>
+                <div class="col-9">
+                    <span class="event-owner">Kevin Cox</span>
+                    <span class="event-text">Quibusdam ratione est repellat qui nam quisquam veniam quibusdam ratione.</span>
+                </div>
+
+                <div class="col-3">
+                    <span class="event-time">2w ago</span>
+                    <i class="pi pi-compass" style="color:#3eb839"></i>
+                </div>
+                <div class="col-9">
+                    <span class="event-owner" style="color:#3eb839">Walter White</span>
+                    <span class="event-text">I am the one who knocks!</span>
+                </div>
+
+                <div class="col-12">
+                    <button type="button" pButton label="Refresh" icon="pi pi-refresh" class="p-button-raised p-button-rounded"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <p-panel header="Calendar"  [style]="{'height':'100%'}">
+            <full-calendar [options]="fullcalendarOptions" ></full-calendar>
+        </p-panel>
+    </div>
+</div>
