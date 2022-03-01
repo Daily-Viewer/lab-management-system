@@ -140,6 +140,8 @@ import {MenuService} from './app.menu.service';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
+import { VendorModules } from './views/vendor/vendor-module';
+import { PatientModule } from './views/patient/patient-module';
 
 FullCalendarModule.registerPlugins([
     dayGridPlugin,
@@ -234,7 +236,9 @@ FullCalendarModule.registerPlugins([
         TreeModule,
         TreeTableModule,
         VirtualScrollerModule,
-        AppCodeModule
+        AppCodeModule,
+        VendorModules,
+        PatientModule
     ],
     declarations: [
         AppComponent,

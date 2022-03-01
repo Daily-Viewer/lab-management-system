@@ -30,6 +30,8 @@ import {AppCalendarComponent} from './pages/app.calendar.component';
 import {AppInvoiceComponent} from './pages/app.invoice.component';
 import {AppHelpComponent} from './pages/app.help.component';
 import {BlocksComponent} from './blocks/blocks/blocks.component';
+import { SampleViewComponent } from './views/patient/sample-view/sample-view.component';
+import { ViewVendorComponent } from './views/vendor/view-vendor/view-vendor.component';
 
 @NgModule({
     imports: [
@@ -38,6 +40,8 @@ import {BlocksComponent} from './blocks/blocks/blocks.component';
                 path: '', component: AppMainComponent,
                 children: [
                     {path: '', component: DashboardDemoComponent},
+                    {path: 'patient', component: SampleViewComponent},
+                    {path: 'vendor', component: ViewVendorComponent},                    
                     {path: 'uikit/formlayout', component: FormLayoutDemoComponent},
                     {path: 'uikit/input', component: InputDemoComponent},
                     {path: 'uikit/floatlabel', component: FloatLabelDemoComponent},
