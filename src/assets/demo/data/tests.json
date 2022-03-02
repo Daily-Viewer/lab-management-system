@@ -1,0 +1,8 @@
+{
+    "data": [ 
+        {"name": "Boold Test", "code": "BT"}, 
+        {"name": "UltraSound", "code": "UT"},
+        {"name": "2D - Echo Test", "code": "ET"},   
+        {"name": "CT Scan", "code": "ET"}      
+    ]
+}

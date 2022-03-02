@@ -16,6 +16,7 @@ export class AppMenuComponent implements OnInit {
             {label: 'Dashboard', icon: 'pi pi-fw pi-home', routerLink: ['/']},
             {label: 'Sample View', icon: 'pi pi-fw pi-home', routerLink: ['/patient']},
             {label: 'Vendeor View', icon: 'pi pi-fw pi-home', routerLink: ['/vendor']},
+            {label: 'Sample Create', icon: 'pi pi-fw pi-home', routerLink: ['/create/sample']},
             {
                 label: 'UI Kit', icon: 'pi pi-fw pi-star-fill', routerLink: ['/uikit'], badge: 8,
                 items: [

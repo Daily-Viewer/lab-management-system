@@ -32,6 +32,7 @@ import {AppHelpComponent} from './pages/app.help.component';
 import {BlocksComponent} from './blocks/blocks/blocks.component';
 import { SampleViewComponent } from './views/patient/sample-view/sample-view.component';
 import { ViewVendorComponent } from './views/vendor/view-vendor/view-vendor.component';
+import { SampleCreateComponent } from './views/patient/sample-create/sample-create.component';
 
 @NgModule({
     imports: [
@@ -42,6 +43,7 @@ import { ViewVendorComponent } from './views/vendor/view-vendor/view-vendor.comp
                     {path: '', component: DashboardDemoComponent},
                     {path: 'patient', component: SampleViewComponent},
                     {path: 'vendor', component: ViewVendorComponent},                    
+                    {path: 'create/sample', component: SampleCreateComponent},                    
                     {path: 'uikit/formlayout', component: FormLayoutDemoComponent},
                     {path: 'uikit/input', component: InputDemoComponent},
                     {path: 'uikit/floatlabel', component: FloatLabelDemoComponent},

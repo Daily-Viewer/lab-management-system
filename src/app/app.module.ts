@@ -140,8 +140,10 @@ import {MenuService} from './app.menu.service';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
-import { VendorModules } from './views/vendor/vendor-module';
-import { PatientModule } from './views/patient/patient-module';
+import { SampleCreateComponent } from './views/patient/sample-create/sample-create.component';
+import { SampleViewComponent } from './views/patient/sample-view/sample-view.component';
+import { CreateVendorComponent } from './views/vendor/create-vendor/create-vendor.component';
+import { ViewVendorComponent } from './views/vendor/view-vendor/view-vendor.component';
 
 FullCalendarModule.registerPlugins([
     dayGridPlugin,
@@ -236,9 +238,7 @@ FullCalendarModule.registerPlugins([
         TreeModule,
         TreeTableModule,
         VirtualScrollerModule,
-        AppCodeModule,
-        VendorModules,
-        PatientModule
+        AppCodeModule
     ],
     declarations: [
         AppComponent,
@@ -280,7 +280,11 @@ FullCalendarModule.registerPlugins([
         AppTimelineDemoComponent,
         AppAccessdeniedComponent,
         BlocksComponent,
-        BlockViewer
+        BlockViewer,
+        SampleCreateComponent,
+        SampleViewComponent,
+        CreateVendorComponent,
+        ViewVendorComponent
     ],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},
